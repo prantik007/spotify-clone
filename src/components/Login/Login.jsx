@@ -8,7 +8,7 @@ const Login = () => {
 window.open(API_URL);
     }
   return (
-    <Flex h="full" w="100vh" justify="center" alignItems="center" mt={40}>
+    <Flex h="full" justify="center" alignItems="center" mt={40}>
       <Box>
       
         <Button bgColor="green.300" _hover={{ bgColor: 'green.200' }} onClick={handleLoginButton}>

@@ -1,4 +1,4 @@
-import { Heading, HStack, Image, Box, color, Text } from '@chakra-ui/react';
+import { Heading, HStack, Image, Box, color, Text,Flex } from '@chakra-ui/react';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -6,7 +6,7 @@ import spotifyLogo from '../../assets/spotify.png';
 
 const Header = () => {
   return (
-    <HStack bgColor="black" w="full" h="80px" justify="space-around" mb={0}>
+    <Flex bgColor="black" w="100%" h="80px" justify="space-around" alignItems='center' >
       <Link to="/">
         {' '}
         <HStack>
@@ -42,7 +42,7 @@ const Header = () => {
           </HStack>
         </Link>
       </HStack>
-    </HStack>
+    </Flex>
   );
 };
 
